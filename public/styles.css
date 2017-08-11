@@ -1,0 +1,31 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: chartreuse;
+  font-family: 'century gothic', sans-serif;
+}
+
+button {
+  outline: none;
+  background-color: magenta;
+  border: 2px solid purple;
+  border-radius: 6px;
+  font-size: 20px;
+  color: white;
+  margin: 10px;
+}
+button:hover {
+  cursor: pointer;
+}
+button:active{
+  transform: translateY(1px);
+}
